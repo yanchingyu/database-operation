@@ -1,0 +1,57 @@
+section .container .content .box
+{
+  position: absolute;
+  width: 500px;
+  padding: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #191919;
+  color: white;
+}
+
+section .container .content .box h2
+{
+  font-weight: 500;
+}
+
+section .container .content .box input[type = "text"]
+{
+  
+  border: 0;
+  border: 2px solid #3498db;
+  padding: 7px 10px;
+  margin: 10px auto;
+  background: none;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 25px;
+  transition: 0.25s;
+}
+
+section .container .content .box input[type = "text"]:focus
+{
+  width: 280px;
+  border-color: #2ecc71;
+}
+
+section .container .content .box input[type = "submit"]
+{
+  display: block;
+  border: 0;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  margin: 20px auto;
+  background: none;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 25px;
+  transition: 0.25s;
+}
+
+section .container .content .box input[type = "submit"]:hover
+{
+  background: #2ecc71;
+}

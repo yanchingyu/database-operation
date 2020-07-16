@@ -1,0 +1,34 @@
+section .container .content h2{
+  padding: 20px;
+  text-align: center;
+}
+section .container .content table .attr{
+  background: #78FFFF;
+}
+section .container .content table .radio{
+  text-align: center;
+}
+input[type=radio]{
+  width: 30px;
+  height: 30px;
+}
+section .container .content table .val{
+  text-align: right;
+}
+section .container .content .submit{
+  margin-top: 100px;
+  text-align: center;
+}
+section .container .content .submit input{
+  border:1px;
+  font-size: 40px;
+  cursor: pointer;
+  background: #FF6E6E;
+}
+section .container .content .btn{
+  text-decoration: none;
+  font-size: 40px;
+  border:0;
+  background: #78FF78;
+  color: #FFFF26;
+}

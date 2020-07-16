@@ -1,0 +1,30 @@
+section .container .content .caption
+{
+  margin-top: 20px;
+}
+
+section .container .content .containerBtn
+{
+  margin-top: 50px;
+}
+
+section .container .content .containerBtn .btn
+{
+  color: #fff;
+  position: relative;
+  border: 1px solid #3498db;
+  background:#3498db;
+  padding:10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 100px;
+  transition: 0.8s;
+  overflow: hidden;
+}
+
+section .container .content .containerBtn .btn:hover
+{
+  color: #3498db;
+  background:none;
+}

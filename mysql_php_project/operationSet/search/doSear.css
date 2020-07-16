@@ -1,0 +1,9 @@
+
+section .container .content .btn{
+  text-decoration: none;
+  line-height: 200px;
+  font-size: 40px;
+  border:0;
+  background: #78FF78;
+  color: #FFFF26;
+}
